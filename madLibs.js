@@ -25,6 +25,19 @@ const operator = "spaghetti";
 const num2 = 5;
 let result = ""
 
+//Figure out result based on kind of operation outputted. If the operands are not valid numbers, or the operator isn't valid, the result ends up being a funny response
+if (operator === "x"){
+    result = num1 * num2 || "multiplied gibberish";
+}else if (operator === "/"){
+    result = num1 / num2 || "divided gibberish";
+}else if (operator === "+"){
+    result = num1 + num2 || "added gibberish";
+}else if (operator === "-"){
+    result = num1 - num2 || "subtracted gibberish";
+}else {
+    result = "the meaning of life";
+}
+
 //Madlibs story with variables for added words, and styling for each styled word so that it can be focused and hovered over. Also, so that it is obvious which words can change and which can't
 let story = `
 One <span tabindex="0" class="added-word">${isItBright ? "bright" : "gloomy"}</span> morning, I set sail on a <span tabindex="0" class="added-word">${noun1}</span> <span tabindex="0" class="added-word">${noun2}</span> named The <span tabindex="0" class="added-word">${nameForObject}</span>. 
