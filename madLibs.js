@@ -1,0 +1,1 @@
+//Declare and initialize variables for words replaced in pirate story
