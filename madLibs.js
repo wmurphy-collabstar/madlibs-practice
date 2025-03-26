@@ -1,5 +1,30 @@
 //Declare and initialize variables for words replaced in pirate story
 
+const isItBright = true; //Silly version: false;
+const firstSentence = {
+    kindOfObject: "pirate", //Silly version: "rustic",
+    object: "ship", //Silly version: "car",
+    name: "Black Pearl" //Silly version: "Jumpy Cadillac",
+};
+const noun1 = firstSentence.kindOfObject;
+const noun2 = firstSentence.object;
+const nameForObject = firstSentence.name;
+
+const thirdSentence = {
+    adjectiveForObject: "mysterious", //Silly version: "organic",
+    object: "chest", //Silly version: "manchego",
+    action: "floating" //Silly version: "flying",
+}
+const adjective1 = thirdSentence.adjectiveForObject;
+const noun3 = thirdSentence.object;
+const verbEndingWithIng = thirdSentence.action;
+const verbEndingWithEd = "opened"; //Silly version: "devoured";
+
+const num1 = 5;
+const operator = "spaghetti";
+const num2 = 5;
+let result = ""
+
 //Madlibs story with variables for added words, and styling for each styled word so that it can be focused and hovered over. Also, so that it is obvious which words can change and which can't
 let story = `
 One <span tabindex="0" class="added-word">${isItBright ? "bright" : "gloomy"}</span> morning, I set sail on a <span tabindex="0" class="added-word">${noun1}</span> <span tabindex="0" class="added-word">${noun2}</span> named The <span tabindex="0" class="added-word">${nameForObject}</span>. 
