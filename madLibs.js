@@ -21,7 +21,7 @@ const verbEndingWithIng = thirdSentence.action;
 const verbEndingWithEd = "opened"; //Silly version: "devoured";
 
 const num1 = 5;
-const operator = "spaghetti";
+const operator = "x";
 const num2 = 5;
 let result = ""
 
