@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+.madlibs-output{
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.added-word {
+    color: darkolivegreen;
+    /* text-decoration: underline; */
+    /* text-decoration-style: dashed; */
+    border: 3px solid coral;
+    border-top: none;
+    border-radius: 10px;
+    padding: 0 1rem;
+    font-style: normal;
+    font-weight: 700;
+    font-family: sans-serif, monospace;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
+
+.added-word:hover, .added-word:focus{
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.added-word:focus{
+    outline: 5px dashed darkolivegreen;
+    /* padding: 0 calc(1rem - 5px); */
+}
