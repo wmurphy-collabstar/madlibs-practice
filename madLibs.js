@@ -48,3 +48,10 @@ We hauled it aboard and <span tabindex="0" class="added-word">${verbEndingWithEd
 Did you know <span tabindex="0" class="added-word">${num1}</span> <span tabindex="0" class="added-word">${operator}</span> <span tabindex="0" class="added-word">${num2}</span> equals <span tabindex="0" class="added-word">${result}</span>? 
 Incredible, right?
 `;
+
+//The paragraph element that will contain the story
+const madlibs = document.getElementById("madlibs-output");
+//The text and HTML needed to display story
+madlibs.innerHTML = story;
+//Only the text of the story, since `story` contains HTML
+console.log(madlibs.textContent);
