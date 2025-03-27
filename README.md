@@ -2,6 +2,13 @@
 
 > A Javascript exercise that dynamically adds text for different words as is done in MadLibs. For my project, I picked a pirate story template, then made some words placeholders and added styling to make those editable words contrast from the rest of the story.
 
+## Features
+- A pirate story with words that can be dynamically replaced with other words.
+- Styling so that the dynamically added words are distinct from the rest of the story.
+- Tabbing feature so the user can focus on each added word.
+- Hover and focus effects to show that the dynamic words can be changed.
+- An option for a silly version to replace each variable in the code with in the story.
+
 ## Getting Started
 
 1. Clone the repo to your local machine.
